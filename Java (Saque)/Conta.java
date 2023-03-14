@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Conta {
 
 	private double balanco;
-	private double sacar;
 
 	public Conta(double balancoInicial) {
 		if (balancoInicial > 0.0) {
@@ -33,10 +32,6 @@ public class Conta {
 	    }
 		}
 	
-
-	public double getsacar() {
-		return sacar;
-	}
 
 	public static void main(String args[]) {
 
